@@ -56,7 +56,7 @@ button.style.border = '1px solid rgb(220,220,220)'
 
 //Adicionando evento de hover(passar por cima) ao botão
 button.addEventListener('click',()=>{
-    squares = parseInt(prompt('Quantos quadrados você deseja? '))
+    squares = parseInt(prompt('Quantos quadrados você deseja?\nEscolha entre 1-100 '))
 
     if (squares < 1 || squares > 100){
         alert('Coloque entre 1 a 100 quadrados')
