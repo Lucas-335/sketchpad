@@ -1,0 +1,26 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    /* box-sizing: border-box; */
+    background-color: rgb(236, 238, 240);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#title{
+    margin: 25px 0;
+}
+
+#main{
+    width: 1525px;
+    margin: 0 auto;
+}
+
+#container{
+    display: flex;
+    width: 1500px;
+    border: 25px solid #797575;
+    flex-wrap: wrap;
+}
